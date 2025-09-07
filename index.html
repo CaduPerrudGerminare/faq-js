@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nakas e Cadu</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Great+Vibes&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+      <section class="perguntas">
+        <div class="titulo">
+          <h2>Perguntas Frequentes (FAQ)</h2>
+        </div>
+        <div class="search-container">
+          <input 
+            type="text" 
+            id="pesquisaFAQ" 
+            placeholder="Pesquise sua dúvida..."
+            class="search-input"
+          >
+        </div>
+        <div class="botoes-controle">
+          <button class="botao" onclick="toggleTodasPerguntas(true)">Expandir Todas</button>
+          <button class="botao" onclick="toggleTodasPerguntas(false)">Recolher Todas</button>
+        </div>
+        <div id="contador" class="contador"></div>
+        <div class="centro-secao">
+          <article class="pergunta">
+            <div class="pergunta-titulo">
+              <p>Como posso acessar o suporte técnico?</p>
+              <button type="button" class="pergunta-btn">
+                <span class="icone-mais">
+                  <i class="far fa-plus-square"></i>
+                </span>
+                <span class="icone-menos">
+                  <i class="far fa-minus-square"></i>
+                </span>
+              </button>
+            </div>
+            <div class="pergunta-texto">
+              <p>
+                Você pode acessar nosso suporte técnico de várias maneiras: através do nosso chat online disponível 24/7,
+                pelo e-mail suporte@exemplo.com.br, ou ligando para nossa central de atendimento no número 0800-123-4567.
+                Nossa equipe está sempre pronta para ajudar!
+              </p>
+            </div>
+          </article>
+
+          <article class="pergunta">
+            <div class="pergunta-titulo">
+              <p>Qual é o prazo de entrega dos produtos?</p>
+              <button type="button" class="pergunta-btn">
+                <span class="icone-mais">
+                  <i class="far fa-plus-square"></i>
+                </span>
+                <span class="icone-menos">
+                  <i class="far fa-minus-square"></i>
+                </span>
+              </button>
+            </div>
+            <div class="pergunta-texto">
+              <p>
+                O prazo de entrega varia de acordo com sua localização. Para capitais, o prazo médio é de 3 a 5 dias úteis.
+                Para outras cidades, pode levar de 5 a 10 dias úteis. Após a confirmação do pedido, você receberá um e-mail
+                com o código de rastreamento para acompanhar sua entrega.
+              </p>
+            </div>
+          </article>
+
+          <article class="pergunta">
+            <div class="pergunta-titulo">
+              <p>Como faço para solicitar reembolso?</p>
+              <button type="button" class="pergunta-btn">
+                <span class="icone-mais">
+                  <i class="far fa-plus-square"></i>
+                </span>
+                <span class="icone-menos">
+                  <i class="far fa-minus-square"></i>
+                </span>
+              </button>
+            </div>
+            <div class="pergunta-texto">
+              <p>
+                Para solicitar um reembolso, acesse sua conta, vá até "Meus Pedidos" e selecione o pedido em questão.
+                Clique em "Solicitar Reembolso" e siga as instruções. O prazo para análise é de até 5 dias úteis, e
+                após aprovação, o valor será estornado em até 10 dias úteis, dependendo da forma de pagamento utilizada.
+              </p>
+            </div>
+          </article>
+            </div>
+          </article>         
+      </section>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
