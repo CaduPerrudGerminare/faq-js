@@ -1,49 +1,60 @@
-# Projeto FAQ Interativo
+# FAQ Interativo
 
-Este é um projeto simples de uma página de Perguntas Frequentes (FAQ) interativa, desenvolvido com HTML, CSS e JavaScript. O objetivo é fornecer uma interface amigável e responsiva para exibir perguntas e respostas de forma dinâmica.
+Sistema de Perguntas Frequentes (FAQ) interativo e dinâmico, desenvolvido com HTML, CSS e JavaScript. O projeto oferece uma experiência de usuário moderna com animações suaves e funcionalidades avançadas de busca.
 
 ## Funcionalidades
 
-- **Expansão e recolhimento de perguntas**: Clique em uma pergunta para visualizar ou ocultar a resposta.
-- **Design responsivo**: Compatível com dispositivos móveis e desktops.
-- **Estilo moderno**: Utilização de variáveis CSS e fontes personalizadas.
+- **Expansão e Recolhimento Animado**: Animações suaves ao expandir/recolher respostas
+- **Barra de Pesquisa**: Filtragem dinâmica de perguntas em tempo real
+- **Botões de Controle**: Opções para expandir ou recolher todas as perguntas de uma vez
+- **Contador de Perguntas**: Exibe o número de perguntas abertas em relação ao total
+- **Design Responsivo**: Interface adaptável para todos os tamanhos de tela
+- **Animações Suaves**: Transições fluidas para melhor experiência do usuário
 
 ## Tecnologias Utilizadas
 
-- **HTML5**: Estrutura da página.
-- **CSS3**: Estilização e responsividade.
-- **JavaScript**: Funcionalidade interativa para expandir/recolher perguntas.
+- **HTML5**: Estrutura semântica da página
+- **CSS3**: 
+  - Variáveis CSS para temas consistentes
+  - Animações e transições personalizadas
+  - Layout flexível e responsivo
+- **JavaScript**: 
+  - Manipulação dinâmica do DOM
+  - Sistema de busca em tempo real
+  - Gerenciamento de estados das perguntas
 
 ## Como Usar
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/CaduPerrudGerminare/proj-js.git
+   git clone https://github.com/CaduPerrudGerminare/faq-js.git
    ```
 2. Navegue até o diretório do projeto:
    ```bash
-   cd proj-js
+   cd faq-js
    ```
 3. Abra o arquivo `index.html` em seu navegador.
 
 ## Estrutura do Projeto
 
 ```
-proj-js/
+faq-js/
 │
-├── index.html       # Estrutura principal da página
-├── styles.css       # Estilos da página
-├── app.js           # Funcionalidades interativas
-├── logo.svg         # Logotipo do projeto
-├── LICENSE          # Licença do projeto
-└── README.md        # Documentação do projeto
+├── index.html      # Estrutura HTML com as perguntas e respostas
+├── styles.css      # Estilos e animações
+├── app.js         # Lógica de interação e busca
+├── LICENSE        # Licença do projeto
+└── README.md      # Documentação
 ```
 
-## Melhorias Futuras
+## Características do Sistema
 
-- Adicionar uma barra de pesquisa para filtrar perguntas.
-- Implementar categorias para organizar as perguntas.
-- Adicionar um modo escuro/claro.
+- Interface limpa e intuitiva
+- Animações suaves para melhor feedback visual
+- Sistema de busca instantâneo
+- Controles globais para gerenciar todas as perguntas
+- Contador dinâmico de perguntas abertas
+- Design totalmente responsivo
 
 ## Licença
 
@@ -51,4 +62,4 @@ Este projeto está licenciado sob a licença MIT. Consulte o arquivo `LICENSE` p
 
 ---
 
-Feito por Cadu e Nakashima.
+Feito por Cadu.
